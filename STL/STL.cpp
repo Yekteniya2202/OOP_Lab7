@@ -5,7 +5,7 @@
 //первый итератор - включая, второй итератор - не включая 
 template <typename _itT>
 int max_increasing_len(_itT it1, _itT it2) {
-    if (it1 == it2)
+    if (it1 >= it2)
         return 0;
     int max_len = 1;
     it2--;
